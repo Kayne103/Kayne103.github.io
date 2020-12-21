@@ -1,11 +1,33 @@
 body{
-    background-color: rgb(0, 0, 0);
-    font-family: monospace;
-    text-align: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 42px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     padding-top: 10%;
 }
-p{
-text-align: center;
+.I_am{
+    font-size: 18px;
+}
+.me{
+    font-size: larger;
+}
+.work{
+    font-size: 18px;
+}
+ul{
+    display: flex;
+}
+.fa{
+    padding: 20px;
+    width: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: azure;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.social_accounts{
+    padding-left: 37%;
+    font-size: 22px;
 }
