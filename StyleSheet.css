@@ -1,46 +1,86 @@
-body{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 42px;
-    color: rgb(255, 255, 255);
-    padding-top: 10%;
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  padding-top: 13%;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background_image/my_background.png");
 }
-.I_am{
-    font-size: 18px;
+.I_am {
+  font-size: 18px;
 }
-.me{
-    font-size: larger;
+.me {
+  font-size: larger;
 }
-.work{
-    font-size: 18px;
+.work {
+  font-size: 18px;
 }
-ul{
-    display: flex;
+.fa {
+  text-align: center;
 }
-ul:before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    height: inherit;
-    width: inherit;
-    /* background: #d35400; */
-    border-radius: 50%;
-    transform: scale(.9);
-    z-index: -1;
-    transition: .5s;
-  }
-.fa{
-    padding: 20px;
-    width: 20px;
-    text-decoration: none;
-    border-radius: 50%;
-    color: azure;
+ul a {
+  position: relative;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  height: 45px;
+  width: 45px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
 }
-.fa:hover{
-    opacity: 0.7;
+ul a:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(0.9);
+  z-index: -1;
+  transition: 0.5s;
 }
-.social_accounts{
-    padding-left: 37%;
-    font-size: 22px;
+ul a:hover:before {
+  filter: blur(1px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+ul a:nth-child(1):hover:before {
+  box-shadow: 0 0 10px #000000;
+}
+ul a:nth-child(2):hover:before {
+  box-shadow: 0 0 10px #1da1f2;
+}
+ul a:nth-child(3):hover:before {
+  box-shadow: 0 0 10px #e1306c;
+}
+ul a:nth-child(4):hover:before {
+  box-shadow: 0 0 10px #2867b2;
+}
+ul a:nth-child(1):hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #000000;
+}
+ul a:nth-child(2):hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px #1da1f2;
+  text-shadow: 0 0 10px #1da1f2;
+}
+ul a:nth-child(3):hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px #e1306c;
+  text-shadow: 0 0 10px #e1306c;
+}
+ul a:nth-child(4):hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px #2867b2;
+  text-shadow: 0 0 10px #2867b2;
 }
