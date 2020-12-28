@@ -17,8 +17,11 @@ body {
 .work {
   font-size: 18px;
 }
-.fa {
+.fab {
   text-align: center;
+}
+span{
+  color: #1ecdda;
 }
 ul a {
   position: relative;
@@ -48,39 +51,25 @@ ul a:before {
   transition: 0.5s;
 }
 ul a:hover:before {
-  filter: blur(1px);
+  filter: blur(0px);
   transform: scale(1.2);
   /* box-shadow: 0 0 15px #d35400; */
 }
-ul a:nth-child(1):hover:before {
-  box-shadow: 0 0 10px #000000;
-}
-ul a:nth-child(2):hover:before {
-  box-shadow: 0 0 10px #1da1f2;
-}
-ul a:nth-child(3):hover:before {
-  box-shadow: 0 0 10px #e1306c;
-}
-ul a:nth-child(4):hover:before {
-  box-shadow: 0 0 10px #2867b2;
-}
+
+
 ul a:nth-child(1):hover {
   color: #ffffff;
-  box-shadow: 0 0 10px #000000;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 4px #000000;
 }
 ul a:nth-child(2):hover {
-  color: #ffffff;
-  box-shadow: 0 0 10px #1da1f2;
-  text-shadow: 0 0 10px #1da1f2;
+  color: #1ecdda;
 }
 ul a:nth-child(3):hover {
-  color: #ffffff;
-  box-shadow: 0 0 10px #e1306c;
-  text-shadow: 0 0 10px #e1306c;
+  color: #e1306c;
 }
 ul a:nth-child(4):hover {
-  color: #ffffff;
-  box-shadow: 0 0 10px #2867b2;
-  text-shadow: 0 0 10px #2867b2;
+  color: #4267B2;
+}
+ul a:nth-child(5):hover {
+  color: #1ecdda;
 }
