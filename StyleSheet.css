@@ -1,24 +1,14 @@
 body {
-  text-align: left;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 42px;
   color: rgb(255, 255, 255);
-  padding-top: 14%;
-  padding-left: 5%;
-  background-image: url("background_image/my_background.png");
-}
-
-.I_am {
-  font-size: 18px;
+  background-image: url(background_image/my_background.png) ;
 }
 
 .ml3 {
   font-weight: 900;
   font-size: 1.5em;
-}
-
-.work {
-  font-size: 18px;
 }
 
 .fab {
@@ -79,4 +69,26 @@ ul a:nth-child(4):hover {
 
 ul a:nth-child(5):hover {
   color: #1ecdda;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+main{
+  padding-top: 10%;
+}
+.ml4 {
+  position: relative;
+  font-size: 50px;
+}
+.ml4 .letters {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0; 
 }
