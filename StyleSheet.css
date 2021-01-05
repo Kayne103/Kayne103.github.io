@@ -1,28 +1,30 @@
 body {
-  text-align: center;
+  text-align: left;
   font-family: "Roboto", sans-serif;
   font-size: 42px;
   color: rgb(255, 255, 255);
   padding-top: 14%;
-  align-items: center;
-  justify-content: center;
+  padding-left: 5%;
   background-image: url("background_image/my_background.png");
 }
+
 .I_am {
   font-size: 18px;
 }
-.me {
-  font-size: larger;
+
+.ml3 {
+  font-weight: 900;
+  font-size: 1.5em;
 }
+
 .work {
   font-size: 18px;
 }
+
 .fab {
   text-align: center;
 }
-span{
-  color: #1ecdda;
-}
+
 ul a {
   position: relative;
   display: inline-block;
@@ -37,6 +39,7 @@ ul a {
   transition: 0.5s;
   text-decoration: none;
 }
+
 ul a:before {
   position: absolute;
   content: "";
@@ -50,26 +53,30 @@ ul a:before {
   z-index: -1;
   transition: 0.5s;
 }
+
 ul a:hover:before {
   filter: blur(0px);
   transform: scale(1.2);
   /* box-shadow: 0 0 15px #d35400; */
 }
 
-
 ul a:nth-child(1):hover {
   color: #ffffff;
   text-shadow: 0 0 4px #000000;
 }
+
 ul a:nth-child(2):hover {
   color: #1ecdda;
 }
+
 ul a:nth-child(3):hover {
   color: #e1306c;
 }
+
 ul a:nth-child(4):hover {
   color: #4267B2;
 }
+
 ul a:nth-child(5):hover {
   color: #1ecdda;
 }
