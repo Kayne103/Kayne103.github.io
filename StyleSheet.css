@@ -1,28 +1,15 @@
 body {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Permanent Marker, serif;
   font-size: 42px;
   color: rgb(255, 255, 255);
-  padding-top: 14%;
-  align-items: center;
-  justify-content: center;
-  background-image: url("background_image/my_background.png");
+  background-color: #000000;
 }
-.I_am {
-  font-size: 18px;
-}
-.me {
-  font-size: larger;
-}
-.work {
-  font-size: 18px;
-}
+
 .fab {
   text-align: center;
 }
-span{
-  color: #1ecdda;
-}
+
 ul a {
   position: relative;
   display: inline-block;
@@ -37,6 +24,7 @@ ul a {
   transition: 0.5s;
   text-decoration: none;
 }
+
 ul a:before {
   position: absolute;
   content: "";
@@ -44,32 +32,90 @@ ul a:before {
   left: 0;
   height: inherit;
   width: inherit;
-  /* background: #d35400; */
   border-radius: 50%;
   transform: scale(0.9);
   z-index: -1;
   transition: 0.5s;
 }
-ul a:hover:before {
-  filter: blur(0px);
-  transform: scale(1.2);
-  /* box-shadow: 0 0 15px #d35400; */
-}
 
+ul a:hover:before {
+  transform: scale(1.2);
+}
 
 ul a:nth-child(1):hover {
   color: #ffffff;
   text-shadow: 0 0 4px #000000;
 }
+
 ul a:nth-child(2):hover {
   color: #1ecdda;
 }
+
 ul a:nth-child(3):hover {
   color: #e1306c;
 }
+
 ul a:nth-child(4):hover {
   color: #4267B2;
 }
+
 ul a:nth-child(5):hover {
   color: #1ecdda;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+main{
+  padding-top: 10%;
+}
+
+.ml4 {
+  position: relative;
+  font-size: 50px;
+}
+
+.ml4 .letters {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0; 
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 6px;
+  width: 100%;
+  background-color: #045770;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
 }
