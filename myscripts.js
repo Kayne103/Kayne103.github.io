@@ -27,6 +27,7 @@ anime.timeline()
   }).add({
     targets: '.ml5 .letters-right',
     opacity: [0,1],
+<<<<<<< HEAD
     translateX: ["-0.5em", 0],
     easing: "easeOutExpo",
     duration: 600,
@@ -84,4 +85,9 @@ anime.timeline({loop: true})
     duration: ml4.durationOut,
     easing: "easeInExpo",
     delay: ml4.delay
+=======
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+>>>>>>> newLook
   });
